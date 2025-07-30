@@ -1,1 +1,93 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0077be;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero {
+    background-color: #005580;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.services, .portfolio, .contact {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.services h2, .portfolio h2, .contact h2 {
+    text-align: center;
+}
+
+.service, .project {
+    background-color: #e6f2ff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0077be;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
