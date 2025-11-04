@@ -1,85 +1,115 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- commentaire -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Professionnel</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Flavie</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!--  boostrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
+    <!-- devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Bienvenue sur Mon Site</h1>
-            <nav>
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <h1> En cours de construction </h1>
-    <img src="https://openclipart.org/image/2400px/svg_to_png/29575/construction-cone.png" width="400" alt="Image en ligne">
-    <section id="accueil" class="hero">
-        <div class="container">
-            <h2>Accueil</h2>
-            <p>Bienvenue sur mon site professionnel. Je suis un expert en développement web et en design futuriste.</p>
-        </div>
-    </section>
 
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Nos Services</h2>
-            <div class="service">
-                <h3>Développement Web</h3>
-                <p>Création de sites web modernes et réactifs.</p>
-            </div>
-            <div class="service">
-                <h3>Design Futuriste</h3>
-                <p>Designs innovants et futuristes pour votre site web.</p>
-            </div>
-            <div class="service">
-                <h3>SEO</h3>
-                <p>Optimisation pour les moteurs de recherche pour améliorer votre visibilité en ligne.</p>
-            </div>
-        </div>
-    </section>
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #f2f0e7;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="favicon.ico" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="project">
-                <h3>Projet 1</h3>
-                <p>Description du projet 1.</p>
-            </div>
-            <div class="project">
-                <h3>Projet 2</h3>
-                <p>Description du projet 2.</p>
-            </div>
-        </div>
-    </section>
+            <!-- Utile sur mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <form>
-                <label for="nom">Nom:</label>
-                <input type="text" id="nom" name="nom">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+
+            </ul>
+            </div>
         </div>
-    </section>
+    </nav>
+
+    <div class="container my-4 ">
+        <div class="row justify-content-center">
+            <div class="col-lg mb-lg-4">
+                <img src="https://globalmagazin.com/wp-content/uploads/2021/01/technologien-leiterbahnen-trace-Gerd-Altmann-pixabay-1536x1024.jpg" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="col-lg mx-2 align-self-center">
+                <div class="my-3">
+                    <h1 class="text-center">Bienvenue sur mon site</h1>
+                    <p>Bonjour et bienvenue sur mon site ! 
+                        Bonjour, Mon site est en cours de développement.
+                        Allez manger un bao pour patienter
+                    </p>
+                    <div class="text-center">
+                        <i class="devicon-bun-plain"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="my-4">
+        <div class="text-center mb-4">
+            <h1>My Skills</h1>
+        </div>
+        <div class="row ">
+            <style>
+                I {
+                    font-size: 4em;
+                }
+            </style>
+            
+            <div class="col">
+                <div class="text-center">
+                    <h4>Python</h4>
+                    <i class="devicon-python-plain"></i>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <h4>SQL</h4>
+                    <i class="devicon-azuresqldatabase-plain"></i>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <h4>Linux</h4>
+                    <i class="devicon-powershell-plain"></i>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                    <h4>Git</h4>
+                    <i class="devicon-git-plain" ></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Mon Site Professionnel. Tous droits réservés.</p>
+            <p> Merci de votre visite ! </p>
         </div>
     </footer>
+
+    <!-- Inclure Javascript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
