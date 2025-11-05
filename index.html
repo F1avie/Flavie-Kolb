@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flavie</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
     <!--  boostrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
       rel="stylesheet" 
@@ -14,6 +13,7 @@
       crossorigin="anonymous">
     <!-- devicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -78,6 +78,19 @@
         <p class="mb-0"> Mon site - Merci de votre visite ! </p>
     </footer>
 
+        <!-- Modal pour le favicon -->
+    <div class="modal fade" id="flaviconModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body text-center" id="flaviconMessage">
+            <!-- Phrase aléatoire sera injectée ici -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Inclure Javascript bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
@@ -89,6 +102,8 @@
             document.getElementById("navbar-placeholder").innerHTML = data;
             });
     </script>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
