@@ -1,7 +1,7 @@
 /* styles.css */
 /* commentaire */
 
-/* taille des icons */
+/* taille des icons page index */
 .skill-icon {
   font-size: 4rem;
 }
@@ -11,4 +11,21 @@
   background-color: #f2f0e7;
   color: #333; /* Optionnel */
   font-size: 1rem;
+}
+
+/* transition sur couleur des liens navigation*/
+.navbar .nav-link {
+    transition: color 0.3s;
+}
+
+/* Boutons page 2 */
+.btn-custom {
+    background-color: #f2f0e7; /* couleur de fond */
+    color: rgb(0, 0, 0);              /* couleur du texte */
+    border: 2px solid #f2f0e7; /* couleur de la bordure */
+}
+
+.btn-custom:hover {
+    background-color: #f0e2c6; /* couleur au survol */
+    border-color: #f2f0e7;
 }
