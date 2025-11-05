@@ -1,2 +1,14 @@
 /* styles.css */
 /* commentaire */
+
+/* taille des icons */
+.skill-icon {
+  font-size: 4rem;
+}
+
+/* Style du footer */
+.footer {
+  background-color: #f2f0e7;
+  color: #333; /* Optionnel */
+  font-size: 1rem;
+}
