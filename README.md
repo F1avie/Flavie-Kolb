@@ -1,5 +1,4 @@
-# Flavie-Kolb
-My html page
+Lien vers la page HTML : https://f1avie.github.io/Flavie-Kolb/
 
 Construction d'un page Web simple : 
 
